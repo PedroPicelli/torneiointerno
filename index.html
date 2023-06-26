@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro Gabriel Picelli">
+    <meta name="keywords" content="Robeetics, Robótica, Sesi, Time">
+    <meta name="description" content="Time do torneio interno de robótica do sesi para entrar no time oficial.">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <title>Robeetics</title>
+</head>
+<body>
+    <header>
+        <span onclick="menu()" id="icon-menu" class="material-symbols-outlined">menu</span>
+        <div id="icon-menu-block"></div>
+        <h1>Robeetics</h1>
+    </header>
+    <nav id="nav">
+        <div>
+            <span onclick="menu()" id="fechar" class="material-symbols-outlined">close</span>
+            <div id="botao-div">
+                <input onclick="mudarPag(0)" type="button" value="Pesquisa" class="botoes">
+                <input onclick="mudarPag(1)" type="button" value="Construção" class="botoes">
+                <input onclick="mudarPag(2)" type="button" value="Programação" class="botoes">
+                <input onclick="mudarPag(3)" type="button" value="Core Values" class="botoes">
+            </div>
+        </div>
+    </nav>
+
+    <article class="pags"> 
+        <section>
+            <h1>Pesquisa</h1>
+            <p>Lorem ipsum dolor sit, <a href="https://www.instagram.com/pedro.pincel/" target="_blank" rel="doFollow" class="link">Link bacana</a> consectetur adipisicing elit. Corrupti totam tempora commodi a. Excepturi magni labore quos rem, velit maiores odio maxime itaque ab. Iste ipsa voluptates quae eos sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quibusdam libero! Facere molestias quia optio laudantium iusto earum molestiae reprehenderit, dolorum inventore accusamus repudiandae illo! Quisquam eum autem quis quod.</p>
+            <h2>Subtitulo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique rerum facere suscipit vel labore nemo quia nam tenetur ex ad hic praesentium pariatur cumque ipsum, totam laborum ea aspernatur obcaecati. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate tempore a autem optio magnam atque, eum laborum. Iusto et, nam qui voluptatum, non quos inventore veniam quae voluptas magnam illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat quia quisquam possimus, ipsam suscipit? Exercitationem dignissimos suscipit doloremque magnam, ipsam autem, earum aliquam tempora dolor ratione dolore? Dolorem, rem.' Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit veritatis non perspiciatis iusto nesciunt maxime deleniti, alias at aspernatur libero. Omnis id laboriosam et vero possimus pariatur, accusantium quisquam laborum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cum facere eum praesentium optio voluptas odio voluptatum eaque voluptatibus blanditiis excepturi, accusantium perspiciatis itaque, provident consectetur esse aperiam voluptate minus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique rerum facere suscipit vel labo</p>
+        </section>
+    </article>
+
+
+    <article class="pags">
+        <section>
+            <h1>Construção</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti totam tempora commodi a. Excepturi magni labore quos rem, velit maiores odio maxime itaque ab. Iste ipsa voluptates quae eos sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quibusdam libero! Facere molestias quia optio laudantium iusto earum molestiae reprehenderit, dolorum inventore accusamus repudiandae illo! Quisquam eum autem quis quod.</p>
+            <h2>Subtitulo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique rerum facere suscipit vel labore nemo quia nam tenetur ex ad hic praesentium pariatur cumque ipsum, totam laborum ea aspernatur obcaecati. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate tempore a autem optio magnam atque, eum laborum. Iusto et, nam qui voluptatum, non quos inventore veniam quae voluptas magnam illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat quia quisquam possimus, ipsam suscipit? Exercitationem dignissimos suscipit doloremque magnam, ipsam autem, earum aliquam tempora dolor ratione dolore? Dolorem, rem.' Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit veritatis non perspiciatis iusto nesciunt maxime deleniti, alias at aspernatur libero. Omnis id laboriosam et vero possimus pariatur, accusantium quisquam laborum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cum facere eum praesentium optio voluptas odio voluptatum eaque voluptatibus blanditiis excepturi, accusantium perspiciatis itaque, provident consectetur esse aperiam voluptate minus?</p>
+        </section>
+    </article>
+
+
+    <article class="pags">
+        <section>
+            <h1 class="textoCentro">Programação</h1>
+            <h2>Seguidor de linhas</h2>
+            <img onclick="ampliarImg('seguidorLinhaVar')" id="seguidorLinhaVar" src="imagens/imagemSeguirLinhasVar.jpg" alt="Código seguidor linhas">
+            <div class="agrupadorDaImg" id="seguidorLinhaVar1">
+                <div class="agrupadorDaImg2">
+                    <span onclick="ampliarImg('seguidorLinhaVar')" class="material-symbols-outlined">close</span>
+                    <div>
+                        <img src="imagens/imagemSeguirLinhasVar.jpg" alt="Código seguidor linhas" class="imgSec">
+                    </div>
+                </div>
+            </div>
+            <p>No bloco do seguidor de linhas, entra três valores, a quantia de cm que vão ser andados, o valor de retorno da luminosidade e a força que o motor irá fazer.</p>
+            <img onclick="ampliarImg('seguidorLinhaVirar')" id="seguidorLinhaVirar" src="imagens/imagemSeguirLinhasVirar.jpg" alt="Código seguir linhas">
+            <div class="agrupadorDaImg" id="seguidorLinhaVirar1">
+                <div class="agrupadorDaImg2">
+                    <span onclick="ampliarImg('seguidorLinhaVirar')" class="material-symbols-outlined">close</span>
+                    <div>
+                        <img src="imagens/imagemSeguirLinhasVirar.jpg" alt="Código seguir linha" class="imgSec">
+                    </div>
+                </div>
+            </div>
+            <p>Nesse código ele irá repitir a verificação até que o carrinho tenha andado a quantia de centímetros seleciondos, caso um dos sensores detectaram a luminosidade da linha branca, caso o sensor que verificou a linha sejá o da esquerda, ele irá zerar a força do motor direito, caso o sensor verificado sejá o direito, ele ira zerar a força do motor esquedo, fazendo com que o carrinho se ajeite.</p>
+            <h2>Andar por centímetros</h2>
+            <img onclick="ampliarImg('andarCmVar')" id="andarCmVar" src="imagens/imagemAndarCmVar.jpg" alt="Código para andar por cm">
+            <div class="agrupadorDaImg" id="andarCmVar1">
+                <div class="agrupadorDaImg2">
+                    <span onclick="ampliarImg('andarCmVar')" class="material-symbols-outlined">close</span>
+                    <div>
+                        <img src="imagens/imagemAndarCmVar.jpg" alt="Código para andar por cm." class="imgSec">
+                    </div>
+                </div>
+            </div>
+            <p>Nesse bloco, existem três variáveis, os centímetros para serem percorridor, o diamêtro da roda e a força que o motor irá fazer.</p>
+            <img onclick="ampliarImg('andarCmCodigo')" src="imagens/imagemAndarCmCodigo.jpg" alt="Código para andar por centímetros" id="andarCmCodigo">
+            <div class="agrupadorDaImg" id="andarCmCodigo1">
+                <div class="agrupadorDaImg2">
+                    <span onclick="ampliarImg('andarCmCodigo')" class="material-symbols-outlined">close</span>
+                    <div>
+                        <img src="imagens/imagemAndarCmCodigo.jpg" alt="Codigo para andar por cm." class="imgSec">
+                    </div>
+                </div>
+            </div>
+            <p>A lógica para fazer o carrinho andar pela quantia de centímetros escolhidos é que, vai fazer um calculo para verificar quantos graus precisará ser contados para chegar na quantia de centímetros desejadas, esse calculo será do quanto queremos que ele ande dividido pelo diamêtro, depois pegando esse resultado e multiplicando pela quantia de graus que existem em uma circunferencia, no caso 360, assim obtendo quantos graus precisariam para chegar na quantia de centímetros.</p>
+            <p>Após fazer esse calculo, íremos ter em mão os graus necessários e vamos verificar se os graus que o motor andou são maiores que os graus necessários, caso sejá maior, ele ira parar de mover, se não for maior, vai continuar andando para frente.</p>
+            <h2>Virar carrinho</h2>
+            <img onclick="ampliarImg('virarVar')" src="imagens/imagemVirarVar.jpg" alt="Código para virar o carrinho" id="virarVar">
+            <div class="agrupadorDaImg" id="virarVar1">
+                <div class="agrupadorDaImg2">
+                    <span onclick="ampliarImg('virarVar')" class="material-symbols-outlined">close</span>
+                    <div>
+                        <img src="imagens/imagemVirarVar.jpg" alt="Código para virar o carrinho" class="imgSec">
+                    </div>
+                </div>
+            </div>
+            <p>As variáveis necessárias para o código de virar o carrinho são a de velocidade que é na verdade a força que o motor irá exercer, os graus que são por quantos segundos o carrinho irá virar e o lado, que pode ser dois números, 1 ou 2, que são para que lado irá virar.</p>
+            <img onclick="ampliarImg('virarEsquerda')" src="imagens/imagemVirarEsquerda.jpg" alt="Código para virar para esquerda" id="virarEsquerda">
+            <div class="agrupadorDaImg" id="virarEsquerda1">
+                <div class="agrupadorDaImg2">
+                    <span onclick="ampliarImg('virarEsquerda')" class="material-symbols-outlined">close</span>
+                    <div>
+                        <img src="imagens/imagemVirarEsquerda.jpg" alt="Código para virar para esquerda" class="imgSec">
+                    </div>
+                </div>
+            </div>
+            <p>Nesse trecho do código, ele verifica se o lado decidido foi 1, caso sejá um, ele vai começar a mover o motor esquedo com a força negativa e o motor direito com força positiva, tudo isso pela quantia de segundos decididos.</p>
+            <img onclick="ampliarImg('virarDireita')" src="imagens/imagemVirarDireita.jpg" alt="Código para virar para direita" id="virarDireita">
+            <div class="agrupadorDaImg" id="virarDireita1">
+                <div class="agrupadorDaImg2">
+                    <span onclick="ampliarImg('virarDireita')" class="material-symbols-outlined">close</span>
+                    <div>
+                        <img src="imagens/imagemVirarDireita.jpg" alt="Código para virar para direita" class="imgSec">
+                    </div>
+                </div>
+            </div>
+            <p>Já nessa parte do código ele verifica se o lado para ser virado é 2, caso sejá realmente dois, ele vai mover o motor direito com velocidade negativa e o motor esquerdo com velocidade positiva, fazendo o carrinho virar para a direita, tudo isso pela quantia de segundos decididas na variável.</p>
+    </article>
+
+
+    <article class="pags">
+        <section>
+            <h1>Core Values</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti totam tempora commodi a. Excepturi magni labore quos rem, velit maiores odio maxime itaque ab. Iste ipsa voluptates quae eos sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quibusdam libero! Facere molestias quia optio laudantium iusto earum molestiae reprehenderit, dolorum inventore accusamus repudiandae illo! Quisquam eum autem quis quod.</p>
+            <h2>Subtitulo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique rerum facere suscipit vel labore nemo quia nam tenetur ex ad hic praesentium pariatur cumque ipsum, totam laborum ea aspernatur obcaecati. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate tempore a autem optio magnam atque, eum laborum. Iusto et, nam qui voluptatum, non quos inventore veniam quae voluptas magnam illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat quia quisquam possimus, ipsam suscipit? Exercitationem dignissimos suscipit doloremque magnam, ipsam autem, earum aliquam tempora dolor ratione dolore? Dolorem, rem.' Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit veritatis non perspiciatis iusto nesciunt maxime deleniti, alias at aspernatur libero. Omnis id laboriosam et vero possimus pariatur, accusantium quisquam laborum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cum facere eum praesentium optio voluptas odio voluptatum eaque voluptatibus blanditiis excepturi, accusantium perspiciatis itaque, provident consectetur esse aperiam voluptate minus?</p>
+        </section>
+    </article>
+
+    <footer>
+        <p>Site criado por <a href="https://github.com/PedroPicelli" rel="doFollow" target="_blank">Pedro Picelli</a></p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
